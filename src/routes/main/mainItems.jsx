@@ -6,7 +6,6 @@ function MainItems() {
         <div>
             <div className={style.wrap}>
                 <div className={style.first__article}>
-                    <div className={style.test}>
                         <div className={style.article__left}>
                             <div className={style.img__box}>
                                 <img className={style.bag__img} src="./imgs/main/daysbag.jpg" alt="" />
@@ -25,7 +24,6 @@ function MainItems() {
                                 <p className={style.bag__detail}>빈티지한 무드와 자연스러운 핏이 멋스러운 숄더백 ‘퍼니’</p>
                             </div>
                         </div>
-                    </div>
                 </div>
                 
             </div>
