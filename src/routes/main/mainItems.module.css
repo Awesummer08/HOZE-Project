@@ -1,0 +1,53 @@
+.wrap {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.first__article {
+    display: flex;
+}
+
+.article__left {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+.img__box {
+    width: 250px;
+    height: 300px;
+}
+
+.img__box > .bag__img {
+    width: 100%;
+    height: 100%;
+}
+
+.bag__description {
+    width: 230px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.bag__title {
+    margin: 0;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.bag__detail {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0 50px 20px 0;
+    text-align: left;
+}    

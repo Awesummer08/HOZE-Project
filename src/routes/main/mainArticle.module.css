@@ -1,0 +1,56 @@
+.wrap {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.first__article {
+    display: flex;
+}
+
+.article__left {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img__name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.img__box >  .background__img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.article__right {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(235, 232, 232);
+}
+
+.article__details {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.review {
+    margin: 0;
+    padding: 0;
+}
+
+.best__item {
+    margin: 0;
+    padding: 0;
+}

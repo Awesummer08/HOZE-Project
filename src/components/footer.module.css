@@ -1,0 +1,141 @@
+.wrap {
+    width: 100%;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    height: 340px;
+    background-color: #eeebe2;
+}
+
+.wrap > .inner {
+    letter-spacing: 0.8px;
+    position: relative;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly; 
+    margin: 0 auto; 
+    padding: 100px 0;
+}
+
+
+/* 1번 박스 */
+.first__box {
+    height: 100%;
+    padding: 0px;
+}
+
+.first__box__list{
+    display:flex;
+    flex-direction:column;
+    text-align: left;
+}
+
+.first__title {
+    font-size: 11px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.first__number {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.first__operationTime {
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.first__email {
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+
+
+/*2번 박스*/
+.second__box {
+    height: 100%;
+    padding: 0px;
+}
+
+.second__box__list{
+    display:flex;
+    flex-direction:column;
+    text-align: left;
+}
+
+.second__list {
+    letter-spacing: 0.8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 11px;
+    color: #000;
+    line-height: 250%;
+}
+
+
+/* 3번 박스 */
+.third__box {
+    height: 100%;
+    padding: 0px;
+}
+
+.third__box__list{
+    display:flex;
+    flex-direction:column;
+    text-align: left;
+}
+
+.third__list {
+    font: 0.72em 'Montserrat','Nanum Barun Gothic',sans-serif;
+    letter-spacing: 0.8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 11px;
+    color: #000;
+    line-height: 25px;
+}
+
+
+
+/* 4번 박스 */
+.fourth__box {
+    height: 100%;
+    padding: 0px;
+}
+
+.fourth__box__list{
+    display:flex;
+    flex-direction:column;
+    text-align: left;
+}
+
+.fourth__title {
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.fourth__address {
+    letter-spacing: 0.8px;
+    font-size: 12px;
+} 
+
+.fourth__year {
+    letter-spacing: 0.8px;
+    font-size: 12px;
+}
+
+
+.instagram {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+}
+
+.instagram:hover {
+    color: rgb(201, 197, 197);
+}
