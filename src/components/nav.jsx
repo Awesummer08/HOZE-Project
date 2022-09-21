@@ -16,6 +16,8 @@ function Navigation() {
                         className={style.each__left}>리뷰</li>
                         <li onClick={() => {navigate('/location')}} 
                         className={style.each__left}>매장안내</li>
+                        <li onClick={() => {navigate('/story')}} 
+                        className={style.each__left}>스토리</li>
                     </ul>
                     <h2 onClick={() => { navigate('/mainpage')}} 
                     className={style.title}>HOZE</h2>
@@ -26,6 +28,8 @@ function Navigation() {
                         className={style.each__right}>마이페이지</li>
                         <li onClick={() => {navigate('/login')}} 
                         className={style.each__right}>로그인</li>
+                        <li onClick={() => {navigate('/cs')}} 
+                        className={style.each__right}>고객센터</li>
                     </ul>
                 </div>
             </nav>

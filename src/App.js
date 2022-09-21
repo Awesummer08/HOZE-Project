@@ -15,10 +15,12 @@ function App() {
         <Route path="/onlineshop" element={<></>}></Route>
         <Route path="/review" element={<></>}></Route>
         <Route path="/location" element={<Location />}></Route>
+        <Route path="/story" element={<></>}></Route>
         <Route path="/mainpage" element={<Mainpage />}></Route>
         <Route path="/about" element={<></>}></Route>
         <Route path="/mypage" element={<></>}></Route>
         <Route path="/login" element={<></>}></Route>
+        <Route path="/cs" element={<></>}></Route>
         <Route path="*" element={<>주소를 다시 확인해주세요 ^^</>}></Route>
       </Routes>
 

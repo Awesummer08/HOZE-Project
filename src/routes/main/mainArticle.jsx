@@ -1,7 +1,10 @@
 import React from 'react';
 import style from './mainArticle.module.css';
+import { useNavigate } from "react-router-dom";
 
 function MainArticle() {
+    let navigate = useNavigate();
+
     return (
         <div>
             <div className={style.wrap}>
@@ -10,14 +13,15 @@ function MainArticle() {
                         <div className={style.img__box}>
                             <img className={style.background__img} src="./imgs/main/articlebackground.jpg" alt="" />
                         </div>
-                        <div className={style.img__name}>
-                            <h3>CELEB'S PICK</h3>
+                        <div className={style.img__a}>
+                            <h3 className={style.img__b}>CELEB'S PICK</h3>
+                            <button className={style.button} onClick={() => { navigate('/story')}}>MORE VIEW</button>
                         </div>
                     </div>
                     <div className={style.article__right}>
-                        <div className={style.article__details}>
-                            <h3 className={style.review}>REVIEW</h3>
-                            <span className={style.best__item}>HOZE BEST ITEM</span>
+                        <div className={style.img__a}>
+                            <h3 className={style.img__b}>REVIEW</h3>
+                            <button className={style.button} onClick={() => { navigate('/cs')}}>MORE VIEW</button>
                         </div>
                     </div>
                 </div>
